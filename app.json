@@ -13,13 +13,13 @@
 
         "telegram",
         
-        "LazyDeveloperr"
+        "@Zenitsu_AF"
 
     ],
 
-    "repository": "https://github.com/LazyDeveloperr/Gangster-Baby-V2",
+    "repository": "",
 
-    "success_url": "https://telegram.dog/LazyDeveloperr",
+    "success_url": "https://t.me/Anime_Sensei_Network",
 
     "env": {
 
@@ -67,7 +67,7 @@
 
         "ADMIN": {
 
-            "description":"Add Your User ID", '5669981425' '2036803347' )
+            "description":"Add Your User ID",
 
             "required": true
 
