@@ -21,7 +21,7 @@ async def upgrade(bot,update):
 	Price Rs 100  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ```8696796742@paytm```
+	Pay Using Upi I'd ```8005593461@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @Zenitsu_AF"""
@@ -51,7 +51,7 @@ async def upgradecm(bot,message):
 	Price Rs 100  ind /🌎 2.5$  per Month
 	
 	
-	Pay Using Upi I'd ```8696796742@paytm```
+	Pay Using Upi I'd ```8005593461@paytm```
 	
 	After Payment Send Screenshots Of 
         Payment To Admin @Zenitsu_AF"""
