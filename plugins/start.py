@@ -50,12 +50,10 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/Anime_Sensei_Network")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
-                                      ]))
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")], 
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
+                                      ))
         return
     if id:
         if old == True:
@@ -64,12 +62,10 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/Anime_Sensei_Network")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
-                                          ]))
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")], 
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
+                                      ))
             except:
                 return
         else:
@@ -84,12 +80,10 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/Anime_Sensei_Network")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
-                                          ]))
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")], 
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
+                                      ))
     
 
 
@@ -107,7 +101,7 @@ async def send_doc(client, message):
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
-            await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
+            await client.send_message(log_channel,f"🦋 #Rename_logs 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
 
