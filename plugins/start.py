@@ -52,11 +52,11 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")], 
                                       [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
-                                      ))
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')]) 
+	  
         return
     if id:
-        if old == True:
+       if old == True:
             try:
                 await client.send_message(id, "Your Friend is Already Using Our Bot")
                 await message.reply_photo(photo=LAZY_PIC,
