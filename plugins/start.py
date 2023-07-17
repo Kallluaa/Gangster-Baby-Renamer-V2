@@ -52,7 +52,7 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")], 
                                       [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd']]) 
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')]] 
 	  
         return
     if id:
