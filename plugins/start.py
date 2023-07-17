@@ -50,9 +50,9 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
                                       ]))
         return
     if id:
@@ -60,11 +60,11 @@ async def start(client, message):
             try:
                 await client.send_message(id, "Your Friend is Already Using Our Bot")
                 await message.reply_photo(photo=LAZY_PIC,
-                                         caption=txt,
+                                         caption=txt,https://t.me/Anime_Sensei_Network
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
                                              ]))
             except:
                 return
@@ -80,9 +80,9 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/primax_hd')],
                                           ]))
     
 
