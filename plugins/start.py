@@ -51,10 +51,8 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Anime_Sensei_Network")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/Anime_Sensei_Network")],
                                       [InlineKeyboardButton("Support Group", url='https://t.me/Anime_Sensei_Chat'),
                                       InlineKeyboardButton("Movie Channel", url='https://t.me/movies_anime_zone')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                       ]))
         return
     if id:
