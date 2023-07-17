@@ -60,7 +60,7 @@ async def start(client, message):
             try:
                 await client.send_message(id, "Your Friend is Already Using Our Bot")
                 await message.reply_photo(photo=LAZY_PIC,
-                                         caption=txt,https://t.me/primax_movie
+                                         caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/primax_movie")],
                                               [InlineKeyboardButton("Support Group", url='https://t.me/discuss_on'),
