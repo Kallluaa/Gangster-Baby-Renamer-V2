@@ -10,53 +10,53 @@ async def upgrade(bot,update):
 	
 	**🪙 Silver Tier 🪙** 
 	Daily  Upload  limit 10GB
-	Price Rs 20  ind /🌎 0.8$  per Month
+	Price Rs 05  ind /🌎 0.1$  per Month
 	
 	**💫 Gold Tier 💫**
 	Daily Upload limit 50GB
-	Price Rs 55  ind /🌎 1.2$  per Month
+	Price Rs 10  ind /🌎 0.2$  per Month
 	
 	**💎 Diamond 💎**
-	Daily Upload limit 100GB
-	Price Rs 100  ind /🌎 2.5$  per Month
+	Daily Upload limit 1000GB
+	Price Rs 15  ind /🌎 0.3$  per Month
 	
 	
-	Pay Using Upi I'd ```8005593461@paytm```
+	Pay Using Upi I'd ```mekhaleanish@okicici```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @Zenitsu_AF"""
+        Payment To Admin @mr_kallua"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Zenitsu_AF")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mr_kallua")], 
+        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me"),
+        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
-	text = """**Free Plan User**
+		text = """**Free Plan User**
 	Daily  Upload limit 1.2GB
 	Price 0
 	
 	**🪙 Silver Tier 🪙** 
 	Daily  Upload  limit 10GB
-	Price Rs 20  ind /🌎 0.8$  per Month
+	Price Rs 05  ind /🌎 0.1$  per Month
 	
 	**💫 Gold Tier 💫**
 	Daily Upload limit 50GB
-	Price Rs 55  ind /🌎 1.2$  per Month
+	Price Rs 10  ind /🌎 0.2$  per Month
 	
 	**💎 Diamond 💎**
-	Daily Upload limit 100GB
-	Price Rs 100  ind /🌎 2.5$  per Month
+	Daily Upload limit 1000GB
+	Price Rs 15  ind /🌎 0.3$  per Month
 	
 	
-	Pay Using Upi I'd ```8005593461@paytm```
+	Pay Using Upi I'd ```mekhaleanish@okicici```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @Zenitsu_AF"""
+        Payment To Admin @mr_kallua"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/Zenitsu_AF")], 
-        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/vo37hii9")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
-	await message.reply_text(text = text,reply_markup = keybord)
+        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mr_kallua")], 
+        			[InlineKeyboardButton("Paytm",url = "https://p.paytm.me"),
+        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+	await update.message.edit(text = text,reply_markup = keybord)
